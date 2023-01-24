@@ -1,6 +1,7 @@
 # Calculator
 
 This project is made using ReactJS, it's a simple calculator that makes addition, subtraction, multiplication and division.
+<br/>
 It's in need for some changes, that I'll do in the soon.
 
 ## Available Scripts
