@@ -1,0 +1,45 @@
+.display {
+    background-color: #272727;
+    overflow-x: auto; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.display::-webkit-scrollbar{
+    background-color: transparent;
+    width: 10%;
+    height: 10px;
+}
+
+.display::-webkit-scrollbar-thumb{
+    background-color: rgba(94, 92, 92, 0.479);
+    border-radius: 20px;
+    height: 5px;
+}
+
+.displayDiv{
+    grid-column: span 4;
+    background-color: #272727;
+    min-width: 0;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    max-height: 70px;
+    padding: 5px;
+}
+
+.display.calculation{
+    font-size: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+    color: #c7c7c7;
+    font-weight: 100;
+}
+
+.display.result{
+    font-size: 2rem;
+    align-items: center;
+    justify-content: flex-end;
+    color: white;
+    font-weight: 600;
+}

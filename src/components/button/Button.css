@@ -1,0 +1,35 @@
+:root{
+    --bg-button: #f0f0f0;
+    --border-button: solid 1px #e4e4e4;
+}
+
+.button{
+    outline: none;
+    font-size: 1.4rem;
+    background-color: var(--bg-button);
+    border: var(--border-button);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button:hover{
+    background: #dddddd;
+}
+
+.button.operation{
+    background-color: #da8507;
+    color: #f7f7f7;
+    border-right: none;
+}
+
+.button.operation:hover{
+    background-color: #f19509;
+}
+
+.button.double{
+    grid-column: span 2;
+}
+
+.button.triple{
+    grid-column: span 3;
+}
